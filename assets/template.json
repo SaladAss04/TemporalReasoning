@@ -1,0 +1,16 @@
+{
+	"system": "You are an obedient agent that answers questions strictly according to the examples shown.",
+	"instruction":"You will be provided with a series of examples, following 'Examples', each consisting of 'Biodata', 'Question' and 'Answer'. Then you are to answer the question following 'Test:'. Please follow the examples and answer the test question with precisely the information provided in the biodata. Please list all applicable answers. Reply 'None' if no answer is applicable. Reply solely with the content after 'Answer' and do not repeat the biodata or question.",
+	"biodata_template":[
+		"{n} is born in {t0}. {n} {e1} in the year {t1}, and {e2} shortly after, in {t2}. Most recently, {n} {e3} in {t3}.",
+		"In {t0}, {n} came into the world. {t1} marks the year in which {n} {e1}. Most notably, in {t2}, {n} {e2}. {n} {e3} in {t3}."],
+	"question_template":[
+		"What has {n} done between {t1} and {t2}?",
+		"What did {n} do in {t3}?",
+		"What did {n} do at the age of {a}?",
+		"What did {n} do {x} years after {y}?"],
+	"template":["###Instruction###:\n{i}\n\n",
+				"##Biodata##: \n{b}\n##Question##: \n{q}\n##Answer##:\n{a}\n\n",
+				"###Test###:\n##Biodata:\n{b}\n##Question##:\n{q}\n##Answer##:"]
+}
+

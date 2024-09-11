@@ -1,0 +1,16 @@
+
+
+model: llama-2-7b-chat-hf
+question_type: period,stamp,age,years
+eg_num: 3
+correctness: 0.3103448275862069
+
+model: llama-2-7b-chat-hf
+question_type: period,stamp
+eg_num: 3
+correctness: 0.34285714285714286
+
+model: llama-2-7b-chat-hf
+question_type: age,years
+eg_num: 3
+correctness: 0.14285714285714285
